@@ -45,7 +45,7 @@ dependencies {
 
     stockApi 'org.firstinspires.ftc:Inspection:6.0.1'
     stockApi 'org.firstinspires.ftc:Blocks:6.0.1'
-    stockApi 'org.firstinspires.ftc:RobotCore:6.0.1'
+    stockApi 'org.firstinspires.ftc:RobotCore:6.1.1'
     stockApi 'org.firstinspires.ftc:RobotServer:6.0.1'
     stockApi 'org.firstinspires.ftc:OnBotJava:6.0.1'
     stockApi 'org.firstinspires.ftc:Hardware:6.0.1'
