@@ -1,0 +1,42 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:00"
+    timezone: US/Pacific
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: com.android.tools.build:gradle
+    versions:
+    - ">= 4.1.a, < 4.2"
+  - dependency-name: org.firstinspires.ftc:OnBotJava
+    versions:
+    - 6.1.1
+    - 6.2.0
+  - dependency-name: org.firstinspires.ftc:FtcCommon
+    versions:
+    - 6.1.1
+    - 6.2.0
+  - dependency-name: org.firstinspires.ftc:RobotServer
+    versions:
+    - 6.1.1
+    - 6.2.0
+  - dependency-name: org.firstinspires.ftc:RobotCore
+    versions:
+    - 6.1.1
+    - 6.2.0
+  - dependency-name: org.firstinspires.ftc:Blocks
+    versions:
+    - 6.1.1
+    - 6.2.0
+  - dependency-name: org.firstinspires.ftc:Inspection
+    versions:
+    - 6.1.1
+  - dependency-name: org.firstinspires.ftc:Hardware
+    versions:
+    - 6.1.1
+  - dependency-name: com.github.ben-manes.versions
+    versions:
+    - 0.36.0
