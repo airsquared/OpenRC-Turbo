@@ -50,7 +50,7 @@ dependencies {
     stockApi 'org.firstinspires.ftc:OnBotJava:6.0.1'
     stockApi 'org.firstinspires.ftc:Hardware:6.0.1'
     stockApi 'org.firstinspires.ftc:FtcCommon:6.0.1'
-    stockApi 'androidx.appcompat:appcompat:1.2.0'
+    stockApi 'androidx.appcompat:appcompat:1.3.0'
 
     /*
      * Things needed regardless of turbo/extremeTurbo/stock
